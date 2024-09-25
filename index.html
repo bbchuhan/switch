@@ -1,0 +1,38 @@
+
+
+
+
+<script>
+    let num1 = parseFloat(prompt('1st'))
+    let num2 = parseFloat(prompt('2st'))
+    let opr = prompt("plesh select  among +,-,x,/");
+
+    switch(opr)
+    {
+        case "+":
+        let res1 = num1 + num2;
+        console.log(`${num1} + ${num2} = ${res1}`);
+        break;
+
+        case "-":
+        let res2 = num1 - num2;
+        console.log(`${num1} - ${num2} = ${res2}`);
+        break;
+
+        case "x":
+        let res3 = num1 * num2;
+        console.log(`${num1} x ${num2} = ${res3}`);
+        break;
+
+        case "/":
+        let res4 = num1 / num2;
+        console.log(`${num1} / ${num2} = ${res4}`);
+        break;
+        default:
+            console.log('invelid opertor');
+            }
+</script>
+
+
+
+
